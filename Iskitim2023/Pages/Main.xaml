@@ -9,6 +9,7 @@
       Title="Main">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" Text="Разработка программного модуля информационной системы &quot;Экология Искитимского района&quot; для расчета и визуализации полей многокомпонентного химического загрязнения местности с использованием математических моделей распространения примеси и экспериментальных данных" VerticalAlignment="Top" Height="162" Width="698" FontSize="24"/>
+        <Image HorizontalAlignment="Right" Height="450" VerticalAlignment="Top" Width="800" Source="/Pages/фон_Меню.jpg" Stretch="Fill" Margin="0,-10,32,0"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" Text="Разработка программного модуля информационной системы &quot;Экология Искитимского района&quot; для расчета и визуализации полей многокомпонентного химического загрязнения местности с использованием математических моделей распространения примеси и экспериментальных данных" VerticalAlignment="Top" Height="162" Width="698" FontSize="24" Foreground="#FF1B1D27" FontWeight="Bold"/>
     </Grid>
 </Page>

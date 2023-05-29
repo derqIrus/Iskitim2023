@@ -5,21 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Iskitim2023"
         mc:Ignorable="d"
-        Title="MainWindow" Height="520" Width="1100">
-    <Grid>
+        Title="Iskitim_polutions" Height="520" Width="1100" Background="#FF4967A4">
+    <Grid Background="#FF84A2DE">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="223*"/>
-            <ColumnDefinition Width="877*"/>
+            <ColumnDefinition Width="839*"/>
+            <ColumnDefinition Width="38*"/>
         </Grid.ColumnDefinitions>
         <StackPanel>
-            <Button Command="{Binding bMenuMain_Click}" Content="Main"/>
-            <Button Command="{Binding bMenuCalc_Click}" Content="Calculation"/>
-            <Button Command="{Binding bMenuDatabase_Click}" Content="DataBase"/>
+            <Button Command="{Binding bMenuMain_Click}" Content="Меню"/>
+            <Button Command="{Binding bMenuCalc_Click}" Content="Рассчёт"/>
+            <Button Command="{Binding bMenuDatabase_Click}" Content="База данных"/>
         </StackPanel>
         <Frame
             Grid.Column="1"
             Content="{Binding CurrentPage}"
             NavigationUIVisibility="Hidden"
-            Opacity="{Binding FrameOpacity}"/>
+            Opacity="{Binding FrameOpacity}" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

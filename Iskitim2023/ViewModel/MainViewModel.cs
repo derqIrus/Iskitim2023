@@ -15,7 +15,7 @@ namespace Iskitim2023.ViewModel
     {
         private Page Main;
         private Page Calculation;
-        private Page DataBase;
+        private Page DB;
 
         private Page _currentPage;
         public Page CurrentPage { get { return _currentPage; } set { _currentPage = value; RaisePropertyChanged(() => CurrentPage); } }
@@ -27,7 +27,7 @@ namespace Iskitim2023.ViewModel
         {
             Main = new Pages.Main();
             Calculation = new Pages.Calculation();
-            DataBase = new Pages.DataBase();
+            DB = new Pages.DB();
 
             FrameOpacity = 1;
 
@@ -55,7 +55,7 @@ namespace Iskitim2023.ViewModel
         {
             get
             {
-                return new RelayCommand(() => SlowOpacity(DataBase));
+                return new RelayCommand(() => SlowOpacity(DB));
             }
         }
 

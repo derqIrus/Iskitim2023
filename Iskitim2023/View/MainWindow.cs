@@ -21,9 +21,12 @@ namespace Iskitim2023
     /// </summary>
     public partial class MainWindow : Window
     {
+       // AppContext database;
         public MainWindow()
         {
             InitializeComponent();
+
+            //  database = new AppContext();
 
             DataContext = new MainViewModel();
         }

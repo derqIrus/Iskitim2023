@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Iskitim2023.Pages
 {
     /// <summary>
@@ -23,6 +24,8 @@ namespace Iskitim2023.Pages
         public Calculation()
         {
             InitializeComponent();
+           
         }
+        
     }
 }
